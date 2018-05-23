@@ -1,0 +1,2 @@
+<?php
+$sp7ce697['authenticate'] = 'SMTP 错误：身份验证失败。'; $sp7ce697['connect_host'] = 'SMTP 错误: 不能连接SMTP主机。'; $sp7ce697['data_not_accepted'] = 'SMTP 错误: 数据不可接受。'; $sp7ce697['encoding'] = '未知编码：'; $sp7ce697['execute'] = '不能执行: '; $sp7ce697['file_access'] = '不能访问文件：'; $sp7ce697['file_open'] = '文件错误：不能打开文件：'; $sp7ce697['from_failed'] = '下面的发送地址邮件发送失败了： '; $sp7ce697['instantiate'] = '不能实现mail方法。'; $sp7ce697['mailer_not_supported'] = ' 您所选择的发送邮件的方法并不支持。'; $sp7ce697['provide_address'] = '您必须提供至少一个 收信人的email地址。'; $sp7ce697['recipients_failed'] = 'SMTP 错误： 下面的 收件人失败了： ';

@@ -1,0 +1,23 @@
+
+Vehicle:
+- update vehicle --------------- /vehicle/@idVehicle ---- PUT
+- delete vehicle. -------------- /vehicle/@idVehicle. --- DELETE
+- new vehicle. ----------------- /vehicle 			 ---- POST
+- get vehicles ------------------/vehicle    	    ----- GET
+- get vehicles with idcard ----- /vehicleCard/@idCard
+
+
+Payments:
+- add new payment ----- /payment -------------------- POST
+- delete payment ------ /payment/@idEco ------------- DELETE
+- updateVehicle card -- /update/@idVehicl ----------- PUT
+- get payments -------- /payment 			 -------- GET
+
+
+User:
+- get personal	-------- /personal --------------------- GET
+- register mail -------- /registerMail ----------------- POST
+- add dades ------------ /addDades/@idUser ------------- PUT
+- update user ---------- /updateUser/@idUser ------------PUT
+- get user history ----- /userHistory ------------------ GET
+- get user history paginated -- /userHistoryPaginated -- GET

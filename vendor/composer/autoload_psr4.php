@@ -1,0 +1,2 @@
+<?php
+$sp624d98 = dirname(dirname(__FILE__)); $spb057d0 = dirname($sp624d98); return array('PHPMailer\\PHPMailer\\' => array($sp624d98 . '/phpmailer/phpmailer/src'), 'Firebase\\JWT\\' => array($sp624d98 . '/firebase/php-jwt/src'));

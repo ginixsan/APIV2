@@ -1,0 +1,2 @@
+<?php
+function PHPMailerAutoload($spfd21c7) { $sp2bac83 = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'class.' . strtolower($spfd21c7) . '.php'; if (is_readable($sp2bac83)) { require $sp2bac83; } } if (version_compare(PHP_VERSION, '5.1.2', '>=')) { if (version_compare(PHP_VERSION, '5.3.0', '>=')) { spl_autoload_register('PHPMailerAutoload', true, true); } else { spl_autoload_register('PHPMailerAutoload'); } } else { function __autoload($spfd21c7) { PHPMailerAutoload($spfd21c7); } }
